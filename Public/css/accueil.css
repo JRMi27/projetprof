@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    font-family: "Nunito", Arial;
+}
+
+#firstPage {
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/accueil.webp);
+    background-size: cover;
+}
+
+#navAccueil {
+    width: 100%;
+    height: 7.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#firstA {
+    margin-left: 8rem;
+}
+
+#firstA img {
+    width: 8rem;
+    height: 5rem;
+}
+
+.a {
+    font-weight: bold;
+    font-size: 1.75rem;
+    color: #F9E79F;
+    text-decoration: none;
+    margin-left: 3rem;
+}
+
+.a:hover {
+    border-bottom: 0.4rem solid #F9E79F;
+}
+
+#btnConnexion {
+    font-size: 1.6rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: #F0B27A;
+    margin-left: 30rem;
+    border: none;
+}
+
+#btnConnexion:hover {
+    transform: scale(1.05);
+}
+
+#firstPage h2 {
+    font-size: 3.5rem;
+    color: white;
+    font-weight: 600;
+    margin-left: 11rem;
+    margin-top: 10rem;
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+.modal-body h3 {
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+#formConnexion {
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+#formConnexion label {
+    font-weight: bold;
+}
+
+#formConnexion input[type="email"] {
+    margin-bottom: 1.55rem;
+}
+
+#formConnexion input[type="email"],
+#formConnexion input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #303030;
+    width: 90%;
+}
+
+#formConnexion input[type="email"]:focus,
+#formConnexion input[type="password"]:focus {
+    border: none;
+    border-bottom: 1px solid #303030;
+    outline: none;
+}
+
+#formConnexion input[type="password"] {
+    margin-bottom: 1rem;
+}
+
+#passwordLost {
+    text-decoration: none;
+    color: #7DCEA0;
+}
+
+#SeConnecter {
+    width: 90%;
+    height: 2.5rem;
+    margin-top: 2.5rem;
+    background-color: #F0B27A;
+    color: white;
+    border: none;
+}
+
+#createAccount {
+    text-decoration: none;
+    color: #7DCEA0;
+    margin-left: 3rem;
+}
+
+#about {
+    height: auto;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+#ourCompany {
+    padding: 5rem;
+    width: 100%;
+    height: auto;
+    background-color: #303030;
+    margin-top: 5rem;
+    color: white;
+}
+
+#ourCompany h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-style: italic;
+    font-weight: 600;
+    color: #F9E79F;
+}
+
+#ourCompany p {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+#services {
+    height: auto;
+    width: 100%;
+    padding: 0.1rem;
+}
+
+#services h2 {
+    margin: 5rem 0 3rem 4rem;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+#listFormation {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 95%;
+}
+
+#formation {
+    height: auto;
+    width: 24rem;
+    padding: 2rem;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    background-color: #f2f3f4;
+    margin-left: 3.5rem;
+    margin-top: 2rem;
+    border-bottom: 0.3rem solid #303030;
+    border-right: 0.3rem solid #303030;
+    background-color: #F0B27A;
+}
+
+#formation:hover {
+    transform: scale(1.03);
+}
+
+#formation h3 {
+    margin-bottom: 2rem;
+    font-weight: 800;
+    color: white;
+}
